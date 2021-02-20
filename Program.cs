@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Festivals_overview
+namespace FestivalsOverview
 {
     class Program
     {
