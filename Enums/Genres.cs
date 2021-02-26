@@ -8,6 +8,11 @@
         Rap,
         Trap,
         Pop,
-        Metal
+        Metal,
+        Classic,
+        House,
+        Country,
+        Hardstyle,
+
     }
 }
