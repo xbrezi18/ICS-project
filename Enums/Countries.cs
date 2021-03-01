@@ -1,6 +1,6 @@
 ﻿namespace FestivalsOverview.DAL.Enums
 {
-    public enum Country
+    public enum Countries
     {
 		
 		AD,

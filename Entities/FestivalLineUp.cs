@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FestivalsOverview.DAL.Entities
 {
-    class PerformanceList
+    public record FestivalLineUp : EntityBase
     {
+        public ICollection<TimeSlot> LineUp { get; set; } = new List<TimeSlot>();
     }
 }

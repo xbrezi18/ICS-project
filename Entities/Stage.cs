@@ -8,7 +8,11 @@ namespace FestivalsOverview.DAL.Entities
 {
     public record Stage : EntityBase
     {
-        public string? StageName { get; init; }
-        public string? StageDescription { get; init; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Photo { get; set; }
+        public ICollection<Band> BandList { get; set; } = new List<Band>();
+
+
     }
 }
