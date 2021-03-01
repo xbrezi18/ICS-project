@@ -20,4 +20,4 @@ namespace FestivalsOverview.DAL.Entities
     }
 
 }
-}
+
