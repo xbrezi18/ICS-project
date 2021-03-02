@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FestivalsOverview
+namespace FestivalsOverview.DAL
 {
     class Program
     {
