@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FestivalsOverview.DAL.Entities
 {
-    public abstract record EntityBase
+    public abstract class EntityBase
     {
         public Guid Id { get; init; }
     }
